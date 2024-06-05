@@ -1,0 +1,9 @@
+steps
+install ollama
+ollama pull llama3
+ollama serve(set OLLAMA_HOST=0.0.0.0)
+
+
+pip install ollama
+pip install streamlit
+ streamlit run chatbot.py
